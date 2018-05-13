@@ -1,0 +1,40 @@
+#fu{
+    width: 284px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.zi{
+    height: 140px;
+    width: 140px;
+    float: left;
+}
+#zizi{
+    border:1px solid #ff0036;
+    border-left-color:transparent ;
+}
+#zii{
+    border: 1px solid #ff0036;
+    margin-right: -1px;
+}
+#zzi{
+    border: 1px solid #ff0036;
+    border-top-color:transparent ;
+    margin-top:-1px;
+    border-left-color:transparent ;
+}
+#ziii{
+    border: 1px solid #ff0036;
+    border-top-color:transparent;
+    margin-top:-1px;
+    margin-right: -1px;
+}
+#fu .zi:hover {
+    border-color: rgba(0,0,0,1);
+}
+
+
+
+
