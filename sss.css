@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+#header{
+    background: #f2f2f2;
+    position: relative;
+    width: 100%;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    color: #999999;
+    border-bottom: 1px solid #999999;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino
+}
+#login-info{
+    float: left;
+    height: 100%;
+    width: 218px;
+}
+#quick-menu{
+    float: right;
+    width: 530px;
+    height: 100%;
+}
+li{
+
+    padding-right: 12px;
+}
+#quick-menu .menu{
+    float: left;
+}
+#login-info .logi{
+    margin: 0 6px 0 12px;
+}
+a{
+    color: #999999;
+}
+#quick-menu .menu{
+    margin-right:6px;
+    padding-left: 3px;
+}
+#quick-menu .menud:hover{
+    background: #ffffff;
+}
+#quick-menu .menud::after{
+    content: '';
+    width: 0;
+    border-width:3px;
+    border-style: solid;
+    border-color: #bbbbbb transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 3px;
+    transform-origin: 3px 1.5px;
+    transition: none;
+}
+#quick-menu .menud{
+    margin-right:14px;
+    padding-bottom: 1px;
+    height: 32px;
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: transparent;
+    position: relative;
+}
+#quick-menu .menu:hover::after{
+    transform: rotate(180deg);
+    transition: transform .5s ease;
+}
+#quick-menu .menu > a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+#quick-menu .triangle{
+    position: relative;
+}
+#quick-menu .submeau{
+    position: absolute;
+    left: -2px;
+    top: 31px;
+    width: 92px;
+    display: none;
+    padding-left:3px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #eeeeee;
+}
+#quick-menu .menu:hover .submeau{
+    display: block;
+}
+#quick-menu .menud:hover > a{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.caidan:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+#shuxian{
+    border-width: 0 1px 0 0;
+    border-color: #ff0000;
+    border-style: solid;
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    left: 1058px;
+    top: 9px;;
+}
+.logi:hover{
+    color: #ff0000;
+}
+#quick-menu .menu #shoujiban{
+    position: absolute;
+    top: 28px;
+    left: 1020px;
+}
+#quick-menu .menu #sub{
+    width: 140px;
+}
+#quick-menu .menu #sub{
+    position: absolute;
+    left: -80px;
+}
+#quick-menu .menu .juzhong{
+    margin-left: 6px;
+    padding-right: 8px;
+    line-height: 23px;
+}
+#quick-menu .menu .jiazhong{
+    color: #000000;
+}
+.xuxian{
+    border-style: dotted;
+    border-width:0 0 1px 0;
+    border-color: #999999;
+    margin: 5px 0;
+}
+.ggg{
+    line-height: 23px;
+}
+
+
+
+
+
