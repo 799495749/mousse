@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右键菜单</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+        }
+        #caidan{
+            border: 5px solid #cccccc;
+            width: 120px;
+            display: none;
+            position: absolute;
+        }
+        li{
+            list-style: none;
+            width: 120px;
+            height: 50px;
+            border-bottom: 1px dashed #cccccc;
+            text-align: center;
+            line-height: 50px;
+
+        }
+        #caidan .last{
+            border-bottom:0;
+
+        }
+        #caidan li:hover{
+            background-color: #3dc7ff;
+        }
+    </style>
+</head>
+<body>
+<ul id="caidan">
+    <li>菜单1</li>
+    <li>菜单2</li>
+    <li>菜单3</li>
+    <li>菜单4</li>
+    <li class="last">菜单5</li>
+</ul>
+
+
+<script>
+    var right=document.getElementById('caidan');
+    var ali=document.getElementsByTagName('li');
+document.oncontextmenu=function (e) {
+    e = e || window.event;
+    right.style.display='block';
+    right.style.left = e.clientX + 'px';
+    right.style.top = e.clientY + 'px';
+    return false;
+};
+
+document.onclick=function (e) {
+    e = e || window.event;
+    if(e.button == 0){
+        caidan.style.display = 'none';
+    }
+
+};
+for(var i=0;i<ali.length;i++){
+        ali[i].onclick=function () {
+            alert(this.innerHTML);
+        }
+    }
+</script>
+</body>
+</html>
