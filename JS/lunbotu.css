@@ -1,0 +1,68 @@
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#zong{
+    height: 280px;
+    width: 520px;
+    margin: 100px auto;
+    position: relative;
+}
+.xiabiao{
+    float: left;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    color: #f0f8fc;
+    text-align: center;
+    cursor: pointer;
+}
+.last{
+    margin-right:0;
+}
+#liebiao{
+    position: absolute;
+    top: 240px;
+    left:380px;
+    list-style: none;
+}
+#tui .dingwei{
+    display: block;
+}
+#left{
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: #ffffff;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    width: 0;
+
+}
+#right{
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-left-color: #ffffff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 0;
+    float: right;
+}
+.zuo{
+    float: left;
+    width: 15px;
+    height: 10px;
+    background-color: #000000;
+    margin-right: 5px;
+}
+#anniu{
+    position: absolute;
+    top: 240px;
+    left: -20px;
+    list-style: none;
+}
